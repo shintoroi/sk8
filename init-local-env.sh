@@ -21,7 +21,7 @@
 #
 
 set -e
-set -euo pipefail
+set -eu pipefail
 
 # Store the VM's UUID.
 vm_uuid="${1}"
